@@ -90,8 +90,7 @@ body {
 
 /*== LAYOUT =================*/
 
-.container {
-  width: 100%;
+.container {  
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -102,7 +101,15 @@ body {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 5rem 0;  
+}
+
+.section header {
+  margin-bottom: 4rem;
+}
+
+.section header strong {
+  color: var(--base-color);
 }
 
 .section .title {
@@ -111,8 +118,7 @@ body {
 
 #header {
   border-bottom: 1px solid #e4e4e4;
-  margin-bottom: 2rem;
-  display: flex;
+  margin-bottom: 2rem;  
 
   width: 100%;
   position: fixed;
@@ -310,4 +316,15 @@ nav.isOpen .open {
 
 #about .text p {
   margin-bottom: 2rem;
+}
+
+/*== SERVICES =============================*/
+
+.cards.grid {
+  gap: 1.5rem;  
+}
+
+.card {
+  padding: 3.625rem 2rem;
+  background: red;
 }
