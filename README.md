@@ -1,2 +1,2 @@
-# beautysalon
-Learning frontend desenvolviment
+# BeautySalon
+Learning frontend desenvolviment.
