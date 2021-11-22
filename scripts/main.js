@@ -29,3 +29,14 @@ window.addEventListener("scroll", function () {
     header.classList.remove("has-scroll")
   }
 });
+
+
+// Teslemonial Slider Swiper
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true
+});
