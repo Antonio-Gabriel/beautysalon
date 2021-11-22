@@ -11,6 +11,11 @@
     <title>OriginSix</title>
 
     <!-- STYLE -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./assets/fonts/style.css" />
 
@@ -21,6 +26,7 @@
     />
   </head>
   <body>
+    <!-- Header -->
     <header id="header" class="">
       <nav class="container">
         <a class="logo" href="#">Beauty<span>salon</span>.</a>
@@ -45,6 +51,7 @@
     </header>
 
     <main>
+      <!-- home -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -66,6 +73,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- about -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -102,6 +110,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- services -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -140,10 +149,83 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!-- testemonials -->
+      <section class="section" id="testemonials">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Depoimentos para quem já passou por aqui</h2>
+          </header>
+
+          <div class="testemonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testemonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veritatis voluptas modi harum deserunt, sit.
+                  </p>
+
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/17.jpg"
+                      alt="testemonial"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testemonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veritatis voluptas modi harum deserunt, sit.
+                  </p>
+
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/30.jpg"
+                      alt="testemonial"
+                    />
+                    António Gabriel
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testemonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Veritatis voluptas modi harum deserunt, sit.
+                  </p>
+
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/34.jpg"
+                      alt="testemonial"
+                    />
+                    Pedro Francisco
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>  
     </main>
 
     <footer></footer>
 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./scripts/main.js"></script>
   </body>
 </html>
